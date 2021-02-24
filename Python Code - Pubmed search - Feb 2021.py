@@ -72,4 +72,4 @@ results=fetchpub(idlist)
 rows=[[result.get("TI"),result.get("AB"),result.get("AU"),result.get("PT"),result.get("TA"),result.get("AID"),result.get("SO"),result.get("MH")] for result in results]
 df=pd.DataFrame(rows,columns=["Title","Abstract","Author","Type","Journal Name","DOI","Source","Keywords"])
 
-df.to_csv (r'C:\Users\EnakshyLaptop\OneDrive - University of Nebraska-Lincoln\02. PhD\Codes\Python - Web Scraping Code\PubmedArticles_Feb2021.csv')
+
